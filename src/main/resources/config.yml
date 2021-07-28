@@ -1,0 +1,9 @@
+# ManyItems configuration file
+#
+
+# Traits configuration
+traits:
+  # Trait meta modifiers order
+  # If the trait is not present in here, the display element won't be present in item meta (such
+  # as display name or lore)
+  meta-modifiers-order: ["rarity"]

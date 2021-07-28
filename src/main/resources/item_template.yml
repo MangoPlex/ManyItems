@@ -1,0 +1,13 @@
+# ManyItems: Item template
+# Use this template by simply clone it and put in /items/your_id.yml
+# If you accidently changed this file, you can recreate new one by simply delete this template
+
+name: "Item Name"
+display: DIAMOND
+description:
+- "Item Description"
+
+type: "stackable"                     # stackable or unique
+traits:
+  rarity:                             # Item rarity trait, provided by ManyItems
+    value: "legendary"
